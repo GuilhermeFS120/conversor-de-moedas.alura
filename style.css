@@ -1,0 +1,82 @@
+:root {
+    --fonts: "Candara Light", monospace;
+}
+
+body {
+    font-family: var(--fonts);
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png");
+    background-color: #000000;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+input {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 2px solid white;
+    background: black;
+    font-family: var(--fonts);
+    font-size: 1rem;
+    color: white;
+}
+  
+label {
+    color: white;
+}
+  
+button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    font-size: 1.5rem;
+    font-family: var(--fonts);
+}
+
+button:hover {
+    background:  white;
+    color: black;
+}
+  
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+h2.resultado {
+    background: white;
+    border-radius: 5px;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    color: black;
+}
